@@ -5,9 +5,50 @@ A collection of flashcards for developer skills and everyday software usage — 
 ## Directory Structure / 目录结构
 ```
 tech-flashcards/
-├── basics/       # Computer fundamentals flashcards / 计算机基础相关卡片（操作系统、网络、数据结构与算法等）
-├── lang/         # Programming languages flashcards / 编程语言相关卡片（语法、常用 API、语言特性等）
-├── software/     # Software application flashcards / 软件应用相关卡片（开发工具、办公软件、效率工具等）
+├── basics/
+│   ├── os/                  # 操作系统
+│   ├── network/             # 计算机网络
+│   ├── dsa/                 # 数据结构与算法
+│   ├── database/            # 数据库系统
+│   ├── computer-organization/  # 计算机组成原理
+│   ├── compiler/            # 编译原理
+│   ├── discrete-math/       # 离散数学
+│   ├── software-engineering/   # 软件工程
+│   ├── design-patterns/     # 设计模式
+│   ├── distributed-systems/ # 分布式系统
+│   └── security/            # 计算机安全 / 密码学
+│
+├── lang/
+│   ├── python/
+│   ├── java/
+│   ├── javascript-typescript/
+│   ├── c/
+│   ├── cpp/
+│   ├── go/
+│   ├── rust/
+│   ├── kotlin/
+│   ├── swift/
+│   ├── php/
+│   ├── ruby/
+│   └── sql/
+│
+├── software/
+│   ├── git/
+│   ├── docker/
+│   ├── vscode/
+│   ├── intellij-idea/
+│   ├── vim/
+│   ├── postman/
+│   ├── kubernetes/
+│   ├── excel/
+│   ├── powerpoint-keynote/
+│   ├── word/
+│   ├── notion/
+│   ├── obsidian/
+│   ├── anki/
+│   ├── trello-jira/
+│   └── feishu-dingtalk/
+│
 └── README.md
 ```
 
