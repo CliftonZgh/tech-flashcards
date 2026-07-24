@@ -152,7 +152,7 @@ Cloze	Inbox::CSSC::python	字符串支持的大量基本转换和搜索功能统
 Cloze	Inbox::CSSC::python	{{c1::f-strings}} 是指包含嵌入式表达式的字符串字面量。	现代字符串格式化	"#CSSC::#Topic::Python::ch03-intro::01_02_Strings"
 Cloze	Inbox::CSSC::python	斐波那契数列中，下一项是由前两项之 {{c1::和}} 定义的。	数列逻辑	"#CSSC::#Topic::Python::ch03-intro::02_00"
 Cloze	Inbox::CSSC::python	在多重赋值 `a, b = b, a+b` 中，表达式计算顺序是从 {{c1::左到右}}。	求值细节	"#CSSC::#Topic::Python::ch03-intro::02_00"
-Cloze	Inbox::CSSC::python	Python 解释器的默认主提示符是 {{c1::&gt;&gt;&gt;}}。	等待命令状态	"#CSSC::#Topic::Python::ch03-intro::00_00"
+Cloze	Inbox::CSSC::python	Python解释器的默认主提示符是 {{c1::&gt;&gt;&gt;}}。	等待命令状态	"#CSSC::#Topic::Python::ch03-intro::00_00"
 Cloze	Inbox::CSSC::python	连续行提示符（secondary prompt）在交互模式下表现为 {{c1::...}}。	多行输入引导	"#CSSC::#Topic::Python::ch03-intro::00_00"
 Cloze	Inbox::CSSC::python	具有小数部分的数字在 Python 中属于 {{c1::float}} 类型。	浮点型	"#CSSC::#Topic::Python::ch03-intro::01_01_Numbers"
 Cloze	Inbox::CSSC::python	不带小数部分的数字在 Python 中属于 {{c1::int}} 类型。	整型	"#CSSC::#Topic::Python::ch03-intro::01_01_Numbers"
