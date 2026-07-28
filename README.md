@@ -9,7 +9,7 @@ A collection of flashcards for developer skills and everyday software usage — 
 
 ```
 tech-flashcards/
-├── 🧠 basics/                     # Computer Fundamentals / 计算机基础
+├── 🧠 01-fundamentals/           # Computer Fundamentals / 计算机基础
 │   ├── os/                       # Operating Systems 操作系统
 │   ├── network/                  # Computer Networks 计算机网络
 │   ├── dsa/                      # Data Structures & Algorithms 数据结构与算法
@@ -22,7 +22,7 @@ tech-flashcards/
 │   ├── distributed-systems/      # Distributed Systems 分布式系统
 │   └── security/                 # Security & Cryptography 计算机安全 / 密码学
 │
-├── 💻 lang/                       # Programming Languages / 编程语言
+├── 💻 02-development/            # Programming Languages / 编程语言
 │   ├── python/                   # Python
 │   ├── java/                     # Java
 │   ├── javascript-typescript/    # JavaScript / TypeScript
@@ -36,7 +36,7 @@ tech-flashcards/
 │   ├── ruby/                     # Ruby
 │   └── sql/                      # SQL
 │
-├── 🛠️ software/                   # Software Applications / 软件应用
+├── 🛠️ 03-productivity/           # Software Applications / 软件应用
 │   ├── git/                      # Git
 │   ├── docker/                   # Docker
 │   ├── vscode/                   # VS Code
