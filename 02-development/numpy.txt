@@ -4,10 +4,10 @@
 #deck column:2
 #tags column:7
 
-Cloze	Inbox::CSSC::02dev::numpy	"使用 {{c1::np.loadtxt(&#x27;file.txt&#x27;)}} 从文本文件中加载数据。"	从文本文件加载	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
-Cloze	Inbox::CSSC::02dev::numpy	"使用 {{c1::np.genfromtxt(&#x27;file.csv&#x27;,delimiter=&#x27;,&#x27;)}} 从 CSV 文件中加载数据。"	从 CSV 加载	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
-Cloze	Inbox::CSSC::02dev::numpy	"使用 {{c1::np.savetxt(&#x27;file.txt&#x27;,arr,delimiter=&#x27; &#x27;)}} 将数组写入文本文件。"	写入文本文件	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
-Cloze	Inbox::CSSC::02dev::numpy	"使用 {{c1::np.savetxt(&#x27;file.csv&#x27;,arr,delimiter=&#x27;,&#x27;)}} 将数组写入 CSV 文件。"	写入 CSV 文件	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
+Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.loadtxt('file.txt')}} 从文本文件中加载数据。	从文本文件加载	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
+Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.genfromtxt('file.csv',delimiter=',')}} 从 CSV 文件中加载数据。	从 CSV 加载	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
+Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.savetxt('file.txt',arr,delimiter=' ')}} 将数组写入文本文件。	写入文本文件	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
+Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.savetxt('file.csv',arr,delimiter=',')}} 将数组写入 CSV 文件。	写入 CSV 文件	"#CSSC::#Topic::NumPy::99_cheatsheet::ch01_IO"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.array()}} 创建一个一维数组。	一维数组	"#CSSC::#Topic::NumPy::99_cheatsheet::ch02_Creation"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.array([(1,2,3),(4,5,6)])}} 创建一个二维数组。	二维数组	"#CSSC::#Topic::NumPy::99_cheatsheet::ch02_Creation"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.zeros(3)}} 创建一个长度为 3 且值全为 0 的一维数组。	全 0 数组	"#CSSC::#Topic::NumPy::99_cheatsheet::ch02_Creation"
@@ -46,8 +46,8 @@ Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[0:3]}} 返回索引为 0, 1, 2 
 Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[0:3,4]}} 返回第 0, 1, 2 行中第 4 列的元素。	切片行列	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
 Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[:2]}} 返回索引为 0, 1 的元素（或前两行）。	起始切片	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
 Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[:,1]}} 返回所有行中索引为 1 的列。	全行切片	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
-Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr&lt;5}} 会返回一个包含布尔值的数组。	布尔掩码	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
-Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[arr&lt;5]}} 返回数组中所有小于 5 的元素。	布尔索引	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
+Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr<5}} 会返回一个包含布尔值的数组。	布尔掩码	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
+Cloze	Inbox::CSSC::02dev::numpy	语法 {{c1::arr[arr<5]}} 返回数组中所有小于 5 的元素。	布尔索引	"#CSSC::#Topic::NumPy::99_cheatsheet::ch06_Indexing"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.add(arr1,arr2)}} 对两个数组进行逐元素相加。	逐元素加法	"#CSSC::#Topic::NumPy::99_cheatsheet::ch07_Math"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.subtract(arr1,arr2)}} 对两个数组进行逐元素相减。	逐元素减法	"#CSSC::#Topic::NumPy::99_cheatsheet::ch07_Math"
 Cloze	Inbox::CSSC::02dev::numpy	使用 {{c1::np.multiply(arr1,arr2)}} 对两个数组进行逐元素相乘。	逐元素乘法	"#CSSC::#Topic::NumPy::99_cheatsheet::ch07_Math"
