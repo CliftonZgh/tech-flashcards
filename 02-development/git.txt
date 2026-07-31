@@ -1,5 +1,5 @@
 #separator:tab
-#html:true
+#html:false
 #notetype column:1
 #deck column:2
 #tags column:7
