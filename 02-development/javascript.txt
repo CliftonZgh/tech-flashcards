@@ -1,3 +1,10 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+#tags column:7
+
+Type	Deck	Text_zh-Cn	BackExtra_zh-Cn	Tags
 Cloze	Inbox::CSSC::02dev::javascript	JavaScript 是一种跨平台、{{c1::面向对象}}的脚本语言，用于使网页具有交互性。	面向对象 (Object-oriented)	"#CSSC::#Topic::Javascript::01-guide::01-Introduction"
 Cloze	Inbox::CSSC::02dev::javascript	JavaScript 包含一个标准的对象库，例如 Array、{{c1::Map}} 和 Math。	标准库对象	"#CSSC::#Topic::Javascript::01-guide::01-Introduction"
 Cloze	Inbox::CSSC::02dev::javascript	{{c1::客户端}} JavaScript 通过提供控制浏览器及其文档对象模型 (DOM) 的对象来扩展核心语言。	客户端 (Client-side)	"#CSSC::#Topic::Javascript::01-guide::01-Introduction"
